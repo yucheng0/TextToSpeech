@@ -32,7 +32,8 @@ class MainActivity : AppCompatActivity() {
             else{
                 //if there is text in edit text
                 Toast.makeText(this, toSpeak, Toast.LENGTH_SHORT).show()
-                mTTS.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null)
+                mTTS.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null,null)
+
             }
         }
 
